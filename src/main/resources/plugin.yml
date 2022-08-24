@@ -1,0 +1,11 @@
+name: ReviveCommand
+version: '${project.version}'
+main: revivecommand.revivecommand.ReviveCommand
+api-version: 1.19
+commands:
+  revive:
+    description: Revives the selected Player.
+    usage: /revive
+    aliases: [rev, r, pr, rp]
+    permissions: revive
+    permission-message: You are not aloud to revive.
