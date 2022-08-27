@@ -7,5 +7,11 @@ commands:
     description: Revives the selected Player.
     usage: /revive
     aliases: [rev, r, pr, rp]
-    permissions: revive
-    permission-message: You are not aloud to revive.
+    permissions: allow.revive
+    permission-message: You are not allowed to revive.
+  reviveall:
+    description: Revives the all Player.
+    usage: /reviveall
+    aliases: [revall, rall, prall, rpall]
+    permissions: allow.revive.all
+    permission-message: You are not allowed to revive.
