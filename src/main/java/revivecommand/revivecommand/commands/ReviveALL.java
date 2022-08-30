@@ -27,7 +27,7 @@ public class ReviveALL implements CommandExecutor {
                     p.sendMessage(ChatColor.GREEN + p.getName() + " you are revived YAAAAAAY");
                     numOfPlayers++;
                 }
-                player.sendMessage(ChatColor.YELLOW + "Revived all" + (numOfPlayers - 1) + "players");
+                player.sendMessage(ChatColor.YELLOW + "Revived all" + (numOfPlayers - 1) + " players");
             }
         }
 

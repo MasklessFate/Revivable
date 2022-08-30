@@ -6,7 +6,7 @@
 
     <groupId>ReviveCommand</groupId>
     <artifactId>ReviveCommand</artifactId>
-    <version>1.0</version>
+    <version>1.1.1</version>
     <packaging>jar</packaging>
 
     <name>ReviveCommand</name>
@@ -39,7 +39,7 @@
                         </goals>
                         <configuration>
                             <createDependencyReducedPom>false</createDependencyReducedPom>
-                            <outputFile>C:\Users\malumbo\Downloads\LOL PLUGIN TESTER\plugins\Revive Plugin.jar</outputFile>
+                            <outputFile>C:\Users\malumbo\Downloads\LOL PLUGIN TESTER\plugins\RevivePlugin-1.1.1_en.jar</outputFile>
                         </configuration>
                     </execution>
                 </executions>
