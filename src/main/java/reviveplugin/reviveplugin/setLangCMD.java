@@ -9,7 +9,6 @@ import org.bukkit.event.Listener;
 import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.UUID;
 
 public class setLangCMD implements CommandExecutor, Listener, TabCompleter {
 

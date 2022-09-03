@@ -1,10 +1,6 @@
 package reviveplugin.reviveplugin;
 
-
-import org.bukkit.plugin.Plugin;
 import org.bukkit.plugin.java.JavaPlugin;
-
-import java.io.File;
 
 public final class Main extends JavaPlugin {
 

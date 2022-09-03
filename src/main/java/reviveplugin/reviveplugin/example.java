@@ -5,9 +5,9 @@ import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
-public class help implements CommandExecutor {
+public class example implements CommandExecutor {
 
-    public help (Main plugin) {
+    public example (Main plugin) {
         plugin.getCommand("example").setExecutor(this);
     }
 
