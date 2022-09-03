@@ -1,6 +1,5 @@
-package revivecommand.revivecommand.utils;
+package reviveplugin.reviveplugin;
 
-import revivecommand.revivecommand.ReviveCommand;
 import org.bukkit.Bukkit;
 
 import java.io.IOException;
@@ -11,10 +10,10 @@ import java.util.function.Consumer;
 
 public class UpdateChecker
 {
-    private ReviveCommand plugin;
+    private Main plugin;
     private int resourceId;
 
-    public UpdateChecker(ReviveCommand plugin, int resourceId) {
+    public UpdateChecker(Main plugin, int resourceId) {
         this.plugin = plugin;
         this.resourceId = resourceId;
     }

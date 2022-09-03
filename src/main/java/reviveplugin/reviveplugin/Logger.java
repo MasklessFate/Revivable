@@ -1,4 +1,4 @@
-package revivecommand.revivecommand.utils;
+package reviveplugin.reviveplugin;
 
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;

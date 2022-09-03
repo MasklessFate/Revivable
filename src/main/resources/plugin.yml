@@ -1,8 +1,16 @@
-name: ReviveCommand
+name: RevivePlugin
 version: '${project.version}'
-main: revivecommand.revivecommand.ReviveCommand
+main: reviveplugin.reviveplugin.Main
 api-version: 1.19
 commands:
+  setLang:
+    description: Changes the language
+    usage: /setlang
+    aliases: [stl, sl, st]
+  example:
+    description: Shows an example
+    usage: /example
+    aliases: [ex ]
   revive:
     description: Revives the selected Player.
     usage: /revive

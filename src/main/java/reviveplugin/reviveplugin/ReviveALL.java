@@ -1,4 +1,4 @@
-package revivecommand.revivecommand.commands;
+package reviveplugin.reviveplugin;
 
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
@@ -8,26 +8,29 @@ import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
 public class ReviveALL implements CommandExecutor {
 
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
 
-
         if (sender instanceof Player) {
-            Player player = (Player) sender;
+            Player p = (Player) sender;
             if (Bukkit.getServer().getOnlinePlayers().size() == 1) {
-                player.sendMessage(ChatColor.GREEN + "You are the only one online");
+                p.sendMessage(Util.getMessage(Util.getLocale(p),  "OnlyOnline"));
             } else if (Bukkit.getServer().getOnlinePlayers().size() > 1) {
                 int numOfPlayers = 0;
-                for (Player p : Bukkit.getServer().getOnlinePlayers()) {
-                    p.teleport(p.getLastDeathLocation());
-                    p.setGameMode(GameMode.SURVIVAL);
-                    p.sendMessage(ChatColor.GREEN + p.getName() + " got Revived");
-                    p.sendMessage(ChatColor.GREEN + p.getName() + " you are revived YAAAAAAY");
+                for (Player player : Bukkit.getServer().getOnlinePlayers()) {
+                    player.teleport(p.getLastDeathLocation());
+                    player.setGameMode(GameMode.SURVIVAL);
+                    player.sendMessage(Util.getMessage(Util.getLocale(p), "YouRevived"));
                     numOfPlayers++;
                 }
-                player.sendMessage(ChatColor.YELLOW + "Revived all" + (numOfPlayers - 1) + " players");
+                p.sendMessage(ChatColor.YELLOW + "Revived all" + (numOfPlayers - 1) + " players");
             }
         }
 
