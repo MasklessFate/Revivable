@@ -6,3 +6,4 @@ https://www.spigotmc.org/resources/revive-plugin.104765/
 https://www.curseforge.com/minecraft/bukkit-plugins/revive-plugin
 
 - [ ] will be releasing them on github after im done with my latest with update
+I wont be working on this until 2023 cause I am thinking of ideas
