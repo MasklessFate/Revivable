@@ -6,20 +6,16 @@ commands:
   setLang:
     description: Changes the language
     usage: /setlang
-    aliases: [stl, sl, st]
-  example:
-    description: Shows an example
-    usage: /example
-    aliases: [ex ]
+    aliases: [stl, sl]
   revive:
     description: Revives the selected Player.
     usage: /revive
-    aliases: [rev, r, pr, rp]
+    aliases: [rev, r]
     permissions: allow.revive
     permission-message: You are not allowed to revive.
   reviveall:
     description: Revives the all Player.
     usage: /reviveall
-    aliases: [revall, rall, prall, rpall]
+    aliases: [revall, rall]
     permissions: allow.revive.all
     permission-message: You are not allowed to revive.
