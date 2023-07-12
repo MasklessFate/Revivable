@@ -26,8 +26,8 @@ public class Revive implements CommandExecutor {
                 Player target = Bukkit.getPlayer(args[0]);
                 target.teleport(p.getLastDeathLocation());
                 target.setGameMode(GameMode.SURVIVAL);
-                p.sendMessage(Util.getMessage(Util.getLocale(p), "PlayerRevived"));
-                target.sendMessage(Util.getMessage(Util.getLocale(p), "YouRevived"));
+                p.sendMessage(Util.getMessage(Util.getLocale(), "PlayerRevived"));
+                target.sendMessage(Util.getMessage(Util.getLocale(), "YouRevived"));
 
             } else {
                 p.sendMessage(Util.getMessage(Util.getLocale(p), "Alive"));
