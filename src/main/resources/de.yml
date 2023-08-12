@@ -2,13 +2,13 @@ ErrorMessages:
   "PlayerOnly": "&eDer Befehl ist nur für Spieler!"
   "NEArgs": "&eNicht genug Argumente!"
   "LangNoExist": "&eEs gibt keine Sprache mit so einem Namen."
-  "helpMessage": "&eBenutze das /st /setlang /sl or /stl"
+  "helpMessage": "&eBenutze /setlang /sl or /stl"
 
 SuccessMessages:
   "LangSet": "&6Sprache erfolgreich gesetzt"
 
 Revivevals:
-  "PlayerRevived": "&6 wurde wiederbelebt ;)"
-  "YouRevived": "&6Du wurdest wiederbelebt ;)"
-  "Alive": "&6Ist am leben"
+  "PlayerRevived": "&6%player% wurde wiederbelebt ;)"
+  "YouRevived": "&6%player% Du wurdest wiederbelebt ;)"
+  "Alive": "&6%player% Ist am leben"
   "OnlyOnline": "&eDu bist der einzige online"

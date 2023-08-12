@@ -30,7 +30,7 @@ public class Revive implements CommandExecutor {
                 target.sendMessage(Util.getMessage(Util.getLocale(), "YouRevived"));
 
             } else {
-                p.sendMessage(Util.getMessage(Util.getLocale(p), "Alive"));
+                p.sendMessage(Util.getMessage(Util.getLocale(), "Alive"));
             }
         }
         return true;

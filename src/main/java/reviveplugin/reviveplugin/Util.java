@@ -19,11 +19,8 @@ public class Util {
     private static Map<String, Map<String, String>> messages = new HashMap<>();
     public static List<String> files = new ArrayList<>();
 
-    message = message.replace("%player%", player.getName()); //Replace %player% with the player's name.
-    
     public static String getMessage(String locale, String messName) {
         return messages.getOrDefault(locale, messages.get("en, de")).getOrDefault(messName, "Message " + messName + " not set!");
-        message = message.replace("%player%", player.getName()); //Replace %player% with the player's name.
     }
 
     public static String getLocale(Player p) {
