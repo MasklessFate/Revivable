@@ -1,4 +1,4 @@
-package reviveplugin.reviveplugin;
+package revivable;
 
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
