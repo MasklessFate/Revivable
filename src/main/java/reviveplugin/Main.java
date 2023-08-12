@@ -1,4 +1,4 @@
-package reviveplugin.reviveplugin;
+package reviveable;
 
 import org.bukkit.plugin.java.JavaPlugin;
 
@@ -25,7 +25,10 @@ public final class Main extends JavaPlugin {
                 Logger.log(Logger.LogLevel.WARNING, ("Revive Plugin is outdated!"));
                 Logger.log(Logger.LogLevel.WARNING, ("Newest version: " + version));
                 Logger.log(Logger.LogLevel.WARNING, ("Your version: " + Settings.VERSION));
-                Logger.log(Logger.LogLevel.WARNING, ("Please Update Here: " + Settings.PLUGIN_URL));
+                Logger.log(Logger.LogLevel.WARNING, ("Please Update Here: " + Settings.SPIGOT_PLUGIN_URL + ","));
+                Logger.log(Logger.LogLevel.WARNING, ("Here:" + Settings.CURSEFORGE_URL + ","));
+                Logger.log(Logger.LogLevel.WARNING, ("Here:" + Settings.GITHUB_URL));
+                Logger.log(Logger.LogLevel.WARNING, (" or Here" + Settings.MODRINTH_URL));
                 Logger.log(Logger.LogLevel.OUTLINE, "*********************************************************************");
             }
         });

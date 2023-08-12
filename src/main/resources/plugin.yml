@@ -1,6 +1,6 @@
-name: RevivePlugin
+name: Revivable
 version: '${project.version}'
-main: reviveplugin.reviveplugin.Main
+main: revivable.Main
 api-version: 1.19
 commands:
   setLang:
