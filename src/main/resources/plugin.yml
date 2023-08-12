@@ -1,25 +1,19 @@
-name: RevivePlugin
+name: Revivable
 version: '${project.version}'
-main: reviveplugin.reviveplugin.Main
+main: revivable.Main
 api-version: 1.19
 commands:
-  setLang:
-    description: Changes the language
-    usage: /setlang
-    aliases: [stl, sl, st]
-  example:
-    description: Shows an example
-    usage: /example
-    aliases: [ex ]
   revive:
     description: Revives the selected Player.
     usage: /revive
-    aliases: [rev, r, pr, rp]
-    permissions: allow.revive
+    aliases: [rev, r]
     permission-message: You are not allowed to revive.
   reviveall:
     description: Revives the all Player.
     usage: /reviveall
-    aliases: [revall, rall, prall, rpall]
-    permissions: allow.revive.all
+    aliases: [revall, rall]
     permission-message: You are not allowed to revive.
+  banrevive:
+    description: Bans the player from being able to revive anyhow.
+    usage: /revive ban
+    aliases: [brev, br]

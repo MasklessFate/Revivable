@@ -1,0 +1,9 @@
+Messages:
+  ErrorMessages:
+    "PlayerOnly": "&eThe Command is only for Players!"
+    "NEArgs": "&eNot enough Arguments!"
+  Revivevals:
+    "PlayerRevived": "&6%player% was revived"
+    "YouRevived": "&6You were revived by %player%"
+    "Alive": "&6%player% is alive"
+    "OnlyOnline": "&eYou are the only one online"
