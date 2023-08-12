@@ -14,7 +14,6 @@ public final class Main extends JavaPlugin {
         instance = this;
         plugin = this;
         loadConfig();
-        Util.loadMessages();
         new setLangCMD(this);
         //PLEASE REPLACE THE RESOURCE ID WITH YOUR SPIGOT RESOURCE
         new UpdateChecker(this, 104765).getLatestVersion(version -> {
@@ -34,6 +33,7 @@ public final class Main extends JavaPlugin {
         });
         getCommand("revive").setExecutor(new Revive());
         getCommand("reviveall").setExecutor(new ReviveALL());
+        getCommand("banrevive").setExecutor(new BanRevive());
     }
 
     @Override
