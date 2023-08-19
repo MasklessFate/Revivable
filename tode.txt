@@ -2,4 +2,4 @@
 2. shop and slot auto-revive tokens.
 
 1. Once a player has been dead for two days they will have to be revived by someone crafting and placing a revive head renamed with an anvil, once renamed the head would turn into the head of the player.
-2. Another place to buy auto-revive tokens for a full diamond/netherite armor set (diamond/netherite chest plate, diamond/netherite leggings, diamond/netherite boots, and diamond/netherite helmet). If you have the four netherite ingots which you need for the diamond armor. You can only have five equipped at once and have ten in your token capacity storage, which automatically equips a new one if one gets used.
+2. You can buy auto-revive tokens for half a diamond/netherite armor set which include a diamond/netherite chestplate, and diamond/netherite leggings. You need the two upgrade templates in 1.20+ or four netherite ingots in 1.19.4- which you need for half of the diamond/netherite armor. You can only have five equipped at once with a capacity of ten at once.
