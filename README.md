@@ -1,5 +1,4 @@
-# Reviveable
-# My Windows is broken so I can't work on this sorry see you when I can work on it again :)
+# Revivable
 This is the source code of revivable
 
 Download it here,
